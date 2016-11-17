@@ -8,11 +8,5 @@ def second_challenge
 
   value_list = groceries.values
 
-  answer = []
-
-  value_list.each do |value|
-    answer.concat(value)
-  end
-
-answer 
+  value_list.flatten
 end
